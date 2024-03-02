@@ -48,6 +48,9 @@
     "typescript": "^4.7.4"
   },
   "dependencies": {
+    "@solana-developers/helpers": "^1.5.1",
+    "@solana/web3.js": "^1.90.0",
+    "esrun": "^3.2.26",
     "jest-cucumber": "^3.0.1"
   }
 }

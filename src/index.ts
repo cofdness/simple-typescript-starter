@@ -1,2 +1,6 @@
-// eslint-disable-next-line no-console
-console.log('Hello world!');
+import 'dotenv/config';
+import { checkBalance } from './checkBalance';
+
+checkBalance('4NsNyDtmghAc9hUZq4SAdpwSggLvKPZZeqzGVKetNd4M');
+
+console.log(`✅ Finished!`);
